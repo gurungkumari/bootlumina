@@ -1,0 +1,83 @@
+
+
+*{
+    margin: 0;
+    padding:0;
+}
+.logo{
+    font-size:12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left: 40px;
+}
+.hero{
+    display: block;
+
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+}
+.nav-item:hover{
+    
+    background-color: bisque;
+}
+.Passionate{
+    background-color: bisque;
+}
+.Innovation {
+    background-color: bisque;
+}
+@media(max-width:600px){
+    .hero{
+        flex-direction: column;
+        height:100%;
+    }  
+}
+.contact>*{
+    list-style: none;
+}
+
+.gallery{
+    width:1000px;
+    display:grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat (3,200px) ;
+    gap: 10px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+}
+.gallery-item img:hover{
+    
+transition: transform 0.3s case, opacity 0.3s ease;
+width:500 px;
+display: grid;
+grid-template-columns: repeat(3,200 );
+grid-template-rows: repeat (3,200 ) ;
+
+margin:5px;
+padding: 5px;
+gap: 5px
+
+}
+
+.gallery >*{
+    display: inline-block;
+    justify-content: space-between;
+    gap:10px;
+    margin: 5px;
+    padding: 5px;
+    
+}
+  .gallery-item:hover {
+    transform: scale(1.1)
+  }
+  .footer{
+    width:1000px;
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+  }
+  
